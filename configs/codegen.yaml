@@ -1,0 +1,26 @@
+data:
+  path: data/opencode_sample.jsonl
+  limit: 2000
+retrieval:
+  k: 5
+  lambda_diversity: 0.65
+  seed: 42
+generation:
+  # Local Ollama configuration
+  # Recommendation for 4GB VRAM (RTX 2050): use qwen2.5-coder:1.5b or 3b
+  # Run: ollama run qwen2.5-coder:1.5b
+  provider: openai_compatible
+  base_url: http://localhost:11434/v1
+  model: qwen2.5-coder:1.5b
+  api_key_env: LLM_API_KEY
+  temperature: 0.0
+  max_tokens: 2048
+  timeout_seconds: 120
+evaluation:
+  test_size: 0.20
+  dev_size: 0.10
+  cases_path: data/execution_cases.jsonl
+  max_queries: 10
+  timeout_seconds: 3
+output:
+  dir: results/codegen

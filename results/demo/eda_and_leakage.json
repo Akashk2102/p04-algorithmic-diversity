@@ -1,0 +1,19 @@
+{
+  "records": 12,
+  "unique_problem_ids": 12,
+  "duplicate_problem_ids": 0,
+  "sources": {
+    "demo": 12
+  },
+  "difficulties": {
+    "easy": 6,
+    "medium": 6
+  },
+  "avg_input_tokens": 8.166666666666666,
+  "avg_solution_tokens": 12.916666666666666,
+  "split_problem_id_overlap": {
+    "train_test": 0,
+    "train_dev": 0,
+    "dev_test": 0
+  }
+}

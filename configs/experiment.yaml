@@ -1,0 +1,12 @@
+data:
+  path: data/opencode_sample.jsonl
+  limit: 2000
+retrieval:
+  k: 5
+  lambda_diversity: 0.65
+  seed: 42
+evaluation:
+  test_size: 0.20
+  dev_size: 0.10
+output:
+  dir: results/experiment

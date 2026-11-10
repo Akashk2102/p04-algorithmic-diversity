@@ -1,0 +1,4 @@
+query_id,variant,algorithm_coverage,query_algorithm_coverage,prompt_tokens
+1,diversity_only,7,0,63
+7,diversity_only,8,0,63
+8,diversity_only,7,0,63

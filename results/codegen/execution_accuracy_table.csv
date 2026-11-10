@@ -1,0 +1,5 @@
+method,execution_accuracy,generation_ms
+algorithm_aware,0.0,5012.44630998699
+mmr,0.0,5289.290320005966
+random,0.1,5912.485039990861
+semantic,0.0,5499.427940003807

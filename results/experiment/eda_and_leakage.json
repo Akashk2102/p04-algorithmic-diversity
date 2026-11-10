@@ -1,0 +1,44 @@
+{
+  "records": 2000,
+  "unique_problem_ids": 1983,
+  "duplicate_problem_ids": 17,
+  "sources": {
+    "codeforces": 1121,
+    "aizu": 318,
+    "hackerearth": 228,
+    "atcoder": 186,
+    "codechef": 147
+  },
+  "difficulties": {
+    "UNKNOWN_DIFFICULTY": 548,
+    "interview": 204,
+    "EASY": 189,
+    "VERY_HARD": 169,
+    "HARD": 140,
+    "0": 111,
+    "7": 102,
+    "MEDIUM_HARD": 93,
+    "8": 91,
+    "9": 74,
+    "MEDIUM": 74,
+    "10": 58,
+    "competition": 53,
+    "11": 35,
+    "2": 26,
+    "12": 10,
+    "3": 7,
+    "1": 6,
+    "introductory": 3,
+    "13": 3,
+    "6": 2,
+    "16": 1,
+    "22": 1
+  },
+  "avg_input_tokens": 324.0045,
+  "avg_solution_tokens": 128.5815,
+  "split_problem_id_overlap": {
+    "train_test": 0,
+    "train_dev": 0,
+    "dev_test": 0
+  }
+}
