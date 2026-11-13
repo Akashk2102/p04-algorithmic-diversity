@@ -1,0 +1,49 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "1. Run Codegen Eval (Local Ollama)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pipelines.run_codegen_eval",
+            "args": [
+                "--config",
+                "configs/codegen.yaml"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "2. Run Codegen Eval (Gemini API)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pipelines.run_codegen_eval",
+            "args": [
+                "--config",
+                "configs/codegen_gemini.yaml"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "3. Run Main Experiment (Retrieval Benchmarks)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pipelines.run_experiment",
+            "args": [
+                "--config",
+                "configs/experiment.yaml"
+            ],
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "4. Run Demo Experiment (Fast Check)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "pipelines.run_experiment",
+            "args": [
+                "--config",
+                "configs/demo.yaml"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
